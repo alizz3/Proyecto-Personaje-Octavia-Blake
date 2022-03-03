@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    background-image: url("../img/FonBio.png");
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+}
+
+.container{
+    border: 10px  solid rgba(123, 255, 0, 0);
+    height: 80vh;
+    align-items: center;
+    padding: 60px;
+    
+}
+
+.imagen{
+    max-height: 85vh;
+    border: 10px  solid rgba(255, 0, 0, 0);
+    float: left;
+}
+
+.textbio{
+    color: #262b29;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 28px;
+    border: 10px  solid rgba(231, 255, 11, 0);
+    text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.342);
+    max-height: 35rem;
+    max-width: 50rem;
+    float: right;
+    background-color: #ffffff5e;
+    border-radius: 1rem;
+    padding: 0.5rem;
+}
+
+.button {
+    border-radius: 19px;
+    color: #ffffff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.342);
+    font-size: 30px;
+    font-family: Roboto;
+    font-style: italic;
+    text-decoration: none;
+    margin-top: -1rem;
+
+    background: #0000005e;
+    box-shadow: 0px 4px 15px #000000;
+
+    /*background-color: #fc060669;*/
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    float: right;
+}
+
+.button:hover {
+    background: #ffffffda;
+    box-shadow: 0px 4px 4px #ffffff17;
+    border-radius: 19px;
+    color: #000000;
+    font-family: Roboto;
+    font-style: italic;
+}
