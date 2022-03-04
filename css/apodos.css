@@ -85,3 +85,84 @@ td{
     font-family: Roboto;
     font-style: italic;
 }
+
+.frases{
+    color: #FFFFFF;
+    text-shadow: 4px 3px 1px #4229258e;
+    color: #FFFFFF;
+}
+
+.fotos{
+    display: flex;
+    width: 50%;
+}
+
+.fotos img{
+    margin: 0.6rem;
+    max-width: 15rem;
+    box-shadow: 3px 1px 1px #422925;
+}
+
+#foto{
+    margin: 2rem;
+    float: left;
+}
+
+.name{
+    color: #FFFFFF;
+    text-align: center;
+}
+
+#biografia {
+    border: 10px solid rgba(123, 255, 0, 0);
+    
+    width: 50%;
+    margin:0px;
+    float: right;  
+}
+
+#biografia p{
+    color: #FFFFFF;
+    font-size: x-large;
+    background-color: #0000006c;
+    padding: 30px;
+}
+
+#clasac{
+    margin: 2rem;
+    align-items: center;
+    
+}
+
+
+.buttonbio {
+    border-radius: 19px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.342);
+    font-size: 30px;
+    font-family: Roboto;
+    font-style: italic;
+    text-decoration: none;
+
+
+    background: #080808;
+    box-shadow: 0px 4px 50px #000000;
+
+    /*background-color: #fc060669;*/
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    float: right;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.buttonbio:hover {
+    background: #ffffffda;
+    box-shadow: 0px 4px 4px #ffffff17;
+    border-radius: 19px;
+    color: #000000;
+    font-family: Roboto;
+    font-style: italic;
+}

@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-                border: #cffc06 20px solid;
+                border: #cffc0600 20px solid;
     height: 92vh;
     display: flex;
     align-items: center;
@@ -37,7 +37,7 @@ body {
     font-weight: normal;
     font-size: 50px;
     line-height: 60px;
-    border: 10px  solid rgba(200, 255, 0, 0.897);
+    border: 10px  solid rgba(200, 255, 0, 0);
 
     color: #FFFFFF;
     
@@ -83,6 +83,6 @@ body {
     align-items: center;
     flex-direction: column;
     justify-content: space-around;
-    border: 10px  solid rgb(212, 0, 255);
+    border: 10px  solid rgba(212, 0, 255, 0);
     height: 60%;
 }
